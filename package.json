@@ -22,9 +22,12 @@
   },
   "homepage": "https://github.com/Veha0001/veha0001.github.io#readme",
   "devDependencies": {
-    "vitepress": "^1.6.3"
+    "vitepress": "^1.6.3",
+    "vitepress-plugin-llms": "^1.7.0"
   },
   "dependencies": {
-    "@catppuccin/vitepress": "^0.1.2"
+    "@catppuccin/vitepress": "^0.1.2",
+    "markdown-it-mathjax3": "^4.3.2",
+    "vitepress-plugin-group-icons": "^1.6.1"
   }
 }
