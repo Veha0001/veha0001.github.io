@@ -14,9 +14,12 @@ export default defineConfig({
   rewrites: {
     "en/:rest*": ":rest*",
   },
-  metaChunk: true,
   markdown: {
     math: true,
+    image: {
+      lazyLoading: true,
+    },
+    lineNumbers: true,
     codeTransformers: [
       // We use `[!!code` in demo to prevent transformation, here we revert it back.
       {
@@ -53,11 +56,12 @@ export default defineConfig({
   lastUpdated: true,
   appearance: "dark",
   head: [
-    ["link", { rel: "icon", href: "/favicon.ico" }],
+    ["link", { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" }],
     [
       "meta",
       { name: "viewport", content: "width=device-width, initial-scale=1" },
     ],
+    ["meta", { name: "theme-color", content: "#1e1e2e" }],
     // Twitter Card
     ["meta", { name: "twitter:card", content: "summary_large_image " }],
     ["meta", { name: "twitter:site", content: "@Veha0001" }],
@@ -72,8 +76,6 @@ export default defineConfig({
     ["meta", { property: "og:description", content: "Veha0001, Github page." }],
     ["meta", { property: "og:site_name", content: "Veha0001" }],
     ["meta", { property: "og:locale", content: "en_US" }],
-    // Favicon
-    ["link", { rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
     // author discription keywords
     ["meta", { name: "author", content: "Veha0001" }],
     [
@@ -92,7 +94,7 @@ export default defineConfig({
     ],
   ],
   themeConfig: {
-    logo: "/favicon.ico",
+    logo: { src: "/favicon.svg", width: 24, height: 24 },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "/home", link: "/" },
@@ -156,8 +158,5 @@ export default defineConfig({
         ignoreFiles: ["index.md"],
       }),
     ],
-    experimental: {
-      enableNativePlugin: true,
-    },
   },
 });

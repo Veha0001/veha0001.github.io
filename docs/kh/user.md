@@ -1,6 +1,5 @@
 ---
 title: User
-editLink: false
 layout: page
 ---
 <script setup>
