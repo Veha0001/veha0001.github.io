@@ -35,6 +35,8 @@ export default defineConfig({
         const { localeIndex = "root" } = env;
         const codeCopyButtonTitle = (() => {
           switch (localeIndex) {
+            case "kh":
+              return "ចម្លងកូដ";
             default:
               return "Copy code";
           }
@@ -66,14 +68,14 @@ export default defineConfig({
     ["meta", { name: "twitter:card", content: "summary_large_image " }],
     ["meta", { name: "twitter:site", content: "@Veha0001" }],
     ["meta", { name: "twitter:title", content: "Veha0001" }],
-    ["meta", { name: "twitter:description", content: "A VitePress Site" }],
+    ["meta", { name: "twitter:description", content: "Veha Github Site" }],
     ["meta", { name: "twitter:image", content: "/favicon.ico" }],
     // Open Graph
     ["meta", { property: "og:title", content: "Veha0001" }],
     ["meta", { property: "og:type", content: "website" }],
     ["meta", { property: "og:url", content: "https://veha0001.github.io" }],
     ["meta", { property: "og:image", content: "/favicon.ico" }],
-    ["meta", { property: "og:description", content: "Veha0001, Github page." }],
+    ["meta", { property: "og:description", content: "Veha0001, Github Site." }],
     ["meta", { property: "og:site_name", content: "Veha0001" }],
     ["meta", { property: "og:locale", content: "en_US" }],
     // author discription keywords
