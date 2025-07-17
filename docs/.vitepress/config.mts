@@ -17,7 +17,6 @@ export default defineConfig({
     image: {
       lazyLoading: true,
     },
-    lineNumbers: true,
     config(md) {
       md.use(groupIconMdPlugin);
     },
