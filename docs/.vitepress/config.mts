@@ -13,7 +13,6 @@ export default defineConfig({
     "en/:rest*": ":rest*",
   },
   markdown: {
-    math: true,
     image: {
       lazyLoading: true,
     },
