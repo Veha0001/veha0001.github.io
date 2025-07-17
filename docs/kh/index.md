@@ -26,10 +26,6 @@ features:
     icon: <i class="nf nf-dev-rust"></i>
     details: Tool for doing hex replace/insert by config.
     link: https://github.com/Veha0001/Hexsaly
-  - title: omvAstron
-    icon: <i class="nf nf-custom-neovim"</i>
-    details: My AstronVim theme alike Lazy Tokyonight.
-    link: https://github.com/Veha0001/omvAstron
 ---
 
 <style>
@@ -43,4 +39,3 @@ features:
 	);
 }
 </style>
-
