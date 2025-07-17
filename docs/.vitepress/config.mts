@@ -2,9 +2,7 @@ import { defineConfig } from "vitepress";
 import {
   groupIconMdPlugin,
   groupIconVitePlugin,
-  localIconLoader,
 } from "vitepress-plugin-group-icons";
-import llmstxt from "vitepress-plugin-llms";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -123,17 +121,6 @@ export default defineConfig({
     },
   },
   vite: {
-    plugins: [
-      groupIconVitePlugin({
-        customIcon: {
-          vitepress: localIconLoader(import.meta.url, "../public/favicon.ico"),
-          firebase: "logos:firebase",
-        },
-      }),
-      llmstxt({
-        workDir: "en",
-        ignoreFiles: ["index.md"],
-      }),
-    ],
+    plugins: [groupIconVitePlugin()],
   },
 });
