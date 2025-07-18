@@ -2,7 +2,6 @@
 import DefaultTheme from "vitepress/theme";
 import type { Theme } from "vitepress";
 import "./style.css";
-import "virtual:group-icons.css";
 import "@catppuccin/vitepress/theme/mocha/red.css";
 
 export default {

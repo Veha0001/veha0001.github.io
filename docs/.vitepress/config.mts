@@ -1,5 +1,4 @@
 import { defineConfig } from "vitepress";
-import { groupIconMdPlugin, groupIconVitePlugin } from 'vitepress-plugin-group-icons';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -9,17 +8,9 @@ export default defineConfig({
   rewrites: {
     "en/:rest*": ":rest*",
   },
-  vite: {
-    plugins: [
-      groupIconVitePlugin()
-    ]
-  },
   markdown: {
     image: {
       lazyLoading: true,
-    },
-    config(md) {
-      md.use(groupIconMdPlugin);
     },
   },
   sitemap: {
@@ -31,7 +22,7 @@ export default defineConfig({
   lastUpdated: true,
   appearance: "dark",
   head: [
-    ["link", { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" }],
+    ["link", { rel: "icon", href: "/favicon.ico" }],
     [
       "meta",
       { name: "viewport", content: "width=device-width, initial-scale=1" },
@@ -42,12 +33,18 @@ export default defineConfig({
     ["meta", { name: "twitter:site", content: "@Veha0001" }],
     ["meta", { name: "twitter:title", content: "Veha0001" }],
     ["meta", { name: "twitter:description", content: "Veha Github Site" }],
-    ["meta", { name: "twitter:image", content: "https://github.com/Veha0001.png" }],
+    [
+      "meta",
+      { name: "twitter:image", content: "https://github.com/Veha0001.png" },
+    ],
     // Open Graph
     ["meta", { property: "og:title", content: "Veha0001" }],
     ["meta", { property: "og:type", content: "website" }],
     ["meta", { property: "og:url", content: "https://veha0001.github.io" }],
-    ["meta", { property: "og:image", content: "https://github.com/Veha0001.png" }],
+    [
+      "meta",
+      { property: "og:image", content: "https://github.com/Veha0001.png" },
+    ],
     ["meta", { property: "og:description", content: "Veha0001, Github Site." }],
     ["meta", { property: "og:site_name", content: "Veha0001" }],
     ["meta", { property: "og:locale", content: "en_US" }],
@@ -67,7 +64,10 @@ export default defineConfig({
         content: "Veha0001's VitePress site for documentation and examples.",
       },
     ],
-    [ "script", { type: 'application/ld+json' }, `
+    [
+      "script",
+      { type: "application/ld+json" },
+      `
     { 
       "@context": "https://schema.org",
       "@type": "WebSite",
@@ -83,10 +83,11 @@ export default defineConfig({
         }
       }
     }
-  `]
+  `,
+    ],
   ],
   themeConfig: {
-    logo: { src: "/favicon.svg", width: 24, height: 24 },
+    logo: { src: "/favicon.ico", width: 24, height: 24 },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "/home", link: "/" },
