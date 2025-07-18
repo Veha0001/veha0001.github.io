@@ -43,6 +43,8 @@ jobs:
         run: npm ci
       - name: Build with VitePress
         run: npm run docs:build
+      - name: Generate Lunaria Overview
+        uses: yanthomasdev/lunaria-action@v0.1.0
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

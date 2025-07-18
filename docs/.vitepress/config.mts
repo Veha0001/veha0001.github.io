@@ -1,8 +1,5 @@
 import { defineConfig } from "vitepress";
-import {
-  groupIconMdPlugin,
-  groupIconVitePlugin,
-} from "vitepress-plugin-group-icons";
+import { groupIconMdPlugin, groupIconVitePlugin } from 'vitepress-plugin-group-icons';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -11,6 +8,11 @@ export default defineConfig({
   description: "A VitePress Site",
   rewrites: {
     "en/:rest*": ":rest*",
+  },
+  vite: {
+    plugins: [
+      groupIconVitePlugin()
+    ],
   },
   markdown: {
     image: {
@@ -36,16 +38,16 @@ export default defineConfig({
     ],
     ["meta", { name: "theme-color", content: "#1e1e2e" }],
     // Twitter Card
-    ["meta", { name: "twitter:card", content: "summary_large_image " }],
+    ["meta", { name: "twitter:card", content: "summary_large_image" }],
     ["meta", { name: "twitter:site", content: "@Veha0001" }],
     ["meta", { name: "twitter:title", content: "Veha0001" }],
     ["meta", { name: "twitter:description", content: "Veha Github Site" }],
-    ["meta", { name: "twitter:image", content: "/favicon.ico" }],
+    ["meta", { name: "twitter:image", type: "image/svg+xml", content: "/favicon.svg" }],
     // Open Graph
     ["meta", { property: "og:title", content: "Veha0001" }],
     ["meta", { property: "og:type", content: "website" }],
     ["meta", { property: "og:url", content: "https://veha0001.github.io" }],
-    ["meta", { property: "og:image", content: "/favicon.ico" }],
+    ["meta", { property: "og:image", content: "https://github.com/Veha0001.png" }],
     ["meta", { property: "og:description", content: "Veha0001, Github Site." }],
     ["meta", { property: "og:site_name", content: "Veha0001" }],
     ["meta", { property: "og:locale", content: "en_US" }],
@@ -117,8 +119,5 @@ export default defineConfig({
       lang: "kh",
       link: "/kh",
     },
-  },
-  vite: {
-    plugins: [groupIconVitePlugin()],
   },
 });

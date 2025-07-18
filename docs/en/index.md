@@ -20,10 +20,10 @@ hero:
 features:
   - title: DemodAPK
     details: CLI for modify APK resources by config.
-    icon: <i class="nf nf-dev-pypi"></i>
+    icon: 🕶️
     link: https://pypi.org/project/demodapk/
   - title: Hexsaly
-    icon: <i class="nf nf-dev-rust"></i>
+    icon: 🔦
     details: Tool for doing hex replace/insert by config.
     link: https://github.com/Veha0001/Hexsaly
 ---

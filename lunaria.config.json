@@ -1,0 +1,26 @@
+{
+  "$schema": "./node_modules/@lunariajs/core/config.schema.json",
+  "repository": {
+    "name": "Veha0001/veha0001.github.io",
+    "rootDir": "."
+  },
+  "files": [
+    {
+      "location": "docs/**/*.md",
+      "pattern": "docs/@lang/@path",
+      "type": "universal"
+    }
+  ],
+  "defaultLocale": {
+    "label": "English",
+    "lang": "en"
+  },
+  "locales": [
+    {
+      "label": "ភាសាខ្មែរ",
+      "lang": "kh"
+    }
+  ],
+  "outDir": "docs/.vitepress/dist/_translations",
+  "ignoreKeywords": ["lunaria-ignore"]
+}
