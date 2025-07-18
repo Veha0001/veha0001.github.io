@@ -12,7 +12,7 @@ export default defineConfig({
   vite: {
     plugins: [
       groupIconVitePlugin()
-    ],
+    ]
   },
   markdown: {
     image: {
@@ -42,7 +42,7 @@ export default defineConfig({
     ["meta", { name: "twitter:site", content: "@Veha0001" }],
     ["meta", { name: "twitter:title", content: "Veha0001" }],
     ["meta", { name: "twitter:description", content: "Veha Github Site" }],
-    ["meta", { name: "twitter:image", type: "image/svg+xml", content: "/favicon.svg" }],
+    ["meta", { name: "twitter:image", content: "https://github.com/Veha0001.png" }],
     // Open Graph
     ["meta", { property: "og:title", content: "Veha0001" }],
     ["meta", { property: "og:type", content: "website" }],
@@ -67,6 +67,23 @@ export default defineConfig({
         content: "Veha0001's VitePress site for documentation and examples.",
       },
     ],
+    [ "script", { type: 'application/ld+json' }, `
+    { 
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Veha0001", 
+      "url": "https://veha0001.github.io",
+      "description": "Veha0001's VitePress site for documentation and examples.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Veha0001",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://github.com/Veha0001.png"
+        }
+      }
+    }
+  `]
   ],
   themeConfig: {
     logo: { src: "/favicon.svg", width: 24, height: 24 },
