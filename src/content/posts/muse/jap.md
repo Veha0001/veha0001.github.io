@@ -1,18 +1,18 @@
 ---
 title: Just As Planned
 published: 2025-08-30
-tags: [Markdown, Blogging, Demo]
-category: JAP Mobile DLC of MD.
+tags: [Game, Mod, Unlock]
+category: Game
 ---
 
-# Just As Planned
+# MUSEDASH
 
 The Just As Planned, DLC contents and playable all songs.
 
 > [!NOTE]
 > Paid the game. please!
 
-<iframe width="100%" height="468" src="https://youtube.com/embed/K_3LiLv8ya4?si=tCdAUz01u2sKVYZo" title="Game Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="90%" height="315" src="https://youtube.com/embed/K_3LiLv8ya4?si=tCdAUz01u2sKVYZo" title="Game Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### Android (ARM64)
 
