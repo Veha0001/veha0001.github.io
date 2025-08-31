@@ -1,18 +1,22 @@
 ---
 title: Just As Planned
 published: 2025-08-30
-tags: [Game, Mod, Unlock]
+tags: [Rhythm, Hack, Unlock]
 category: Game
 ---
 
 # MUSEDASH
 
-The Just As Planned, DLC contents and playable all songs.
+<iframe width="100%" src="https://youtube.com/embed/K_3LiLv8ya4?si=tCdAUz01u2sKVYZo" title="Game Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-> [!NOTE]
-> Paid the game. please!
+**Just As Planned**
 
-<iframe width="90%" height="315" src="https://youtube.com/embed/K_3LiLv8ya4?si=tCdAUz01u2sKVYZo" title="Game Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+unlock DLC contents and playable all songs.
+
+> [!NOTE]  
+> Please support the game by purchasing the DLC 💖
+
+## Hack
 
 ### Android (ARM64)
 

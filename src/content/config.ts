@@ -25,4 +25,5 @@ const specCollection = defineCollection({
 export const collections = {
 	posts: postsCollection,
 	spec: specCollection,
+	muse: postsCollection,
 };
