@@ -1,7 +1,8 @@
 ---
 title: Just As Planned
 published: 2025-08-30
-cover: /cover/mdjap.jpg
+description: Best Rhythm Mobile Game
+image: /cover/mdjap.jpg
 tags: [Rhythm, Hack, Unlock]
 category: Game
 ---
