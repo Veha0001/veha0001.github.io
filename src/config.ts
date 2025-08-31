@@ -38,8 +38,8 @@ export const siteConfig: SiteConfig = {
 		// }
 		//
 		{
-			src: '/favicon.ico'
-		}
+			src: "/favicon.ico",
+		},
 	],
 };
 
@@ -76,12 +76,12 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "YouTube",
 			icon: "fa6-brands:youtube",
-			url: "https://youtube.com/@Veha0001"
+			url: "https://youtube.com/@Veha0001",
 		},
 		{
 			name: "Ko-Fi",
 			icon: "simple-icons:kofi",
-			url: "https://ko-fi.com/veha0001,"
+			url: "https://ko-fi.com/veha0001,",
 		},
 		{
 			name: "GitHub",
