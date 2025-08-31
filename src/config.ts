@@ -17,7 +17,7 @@ export const siteConfig: SiteConfig = {
 	},
 	banner: {
 		enable: true,
-		src: "assets/images/main-banner.png", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+		src: "assets/images/main-banner.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 		position: "center", // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
 		credit: {
 			enable: true, // Display the credit text of the banner image
@@ -36,6 +36,10 @@ export const siteConfig: SiteConfig = {
 		//   theme: 'light',              // (Optional) Either 'light' or 'dark', set only if you have different favicons for light and dark mode
 		//   sizes: '32x32',              // (Optional) Size of the favicon, set only if you have favicons of different sizes
 		// }
+		//
+		{
+			src: '/favicon.ico'
+		}
 	],
 };
 
@@ -67,12 +71,17 @@ export const profileConfig: ProfileConfig = {
 		{
 			name: "Steam",
 			icon: "fa6-brands:steam",
-			url: "https://store.steampowered.com",
+			url: "https://store.steampowered.com/id/veha0001",
 		},
 		{
 			name: "YouTube",
 			icon: "fa6-brands:youtube",
 			url: "https://youtube.com/@Veha0001"
+		},
+		{
+			name: "Ko-Fi",
+			icon: "simple-icons:kofi",
+			url: "https://ko-fi.com/veha0001,"
 		},
 		{
 			name: "GitHub",
