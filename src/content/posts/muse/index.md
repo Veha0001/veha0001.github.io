@@ -1,16 +1,11 @@
 ---
-title: Tairitsu
+title: Muse
 published: 2025-08-31
-description: Arcaea Mod Wiki
-tags: [Rhythm, Hack, Unlock]
-category: Game
+description: My Note Document
+tags: [Document, Anime]
+category: Page
 ---
 
-# Tairitsu
+# Dev
 
-Hmm... i have no ideal.
-
-Steps:
-
-- 1
-- 2
+[Just As Planned](/posts/muse/jap/)

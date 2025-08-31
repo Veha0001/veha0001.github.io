@@ -9,7 +9,7 @@ category: Game
 
 # MUSEDASH
 
-<iframe width="90%" src="https://youtube.com/embed/K_3LiLv8ya4?si=tCdAUz01u2sKVYZo" title="Game Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="100%" height="315"src="https://youtube.com/embed/K_3LiLv8ya4?si=tCdAUz01u2sKVYZo" title="Game Trailer" frameborder="0" allowfullscreen></iframe>
 
 **Just As Planned**
 
@@ -38,3 +38,5 @@ Unlock DLC contents and playable all songs.
   }
 ]
 ```
+
+::github{repo="Veha0001/JustAsPlanned"}
