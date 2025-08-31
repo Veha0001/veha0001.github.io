@@ -17,12 +17,12 @@ export const siteConfig: SiteConfig = {
 	},
 	banner: {
 		enable: true,
-		src: "assets/images/main-banner.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
+		src: "assets/images/zimazhima.jpg", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
 		position: "center", // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
 		credit: {
 			enable: true, // Display the credit text of the banner image
-			text: "miy_u1308", // Credit text to be displayed
-			url: "https://x.com/miy_u1308/status/1958972152847507583?s=19", // (Optional) URL link to the original artwork or artist's page
+			text: "芝麻✶ZIMA", // Credit text to be displayed
+			url: "https://x.com/zimazhima/status/1947576534489002194?s=19", // (Optional) URL link to the original artwork or artist's page
 		},
 	},
 	toc: {
