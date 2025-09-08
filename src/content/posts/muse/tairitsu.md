@@ -4,6 +4,7 @@ published: 2025-08-31
 description: Arcaea Mod Wiki
 tags: [Rhythm, Hack, Proxy]
 category: Game
+draft: true
 ---
 
 # Tairitsu
