@@ -29,5 +29,3 @@ Unlock all DLC content and play every song without restrictions.
 | MacOS          | \*     | ❌        |
 
 ::github{repo="Veha0001/JustAsPlanned"}
-
-<img src="/asciinema/jap_demo.gif" width="500" />
