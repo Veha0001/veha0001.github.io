@@ -18,8 +18,7 @@ draft: false
 
 Unlock all DLC content and play every song without restrictions.
 
-> [!NOTE]  
-> You **must own and pay for the game** to support the developers!
+:spoiler ![demo](jap_demo.gif)
 
 ## 📦 Available On
 
