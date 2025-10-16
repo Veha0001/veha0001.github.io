@@ -30,4 +30,4 @@ Unlock all DLC content and play every song without restrictions.
 
 ::github{repo="Veha0001/JustAsPlanned"}
 
-<iframe src="/asciinema/jap_demo.gif" width="200" height="300" title="showcase" frameborder="0" ></iframe>
+<img src="/asciinema/jap_demo.gif" width="500" />
